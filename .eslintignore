@@ -1,0 +1,5 @@
+*.css
+*.sass
+*.scss
+*.less
+src/react-app-env.d.ts
