@@ -10,4 +10,4 @@ jobs:
       - name: Install modules
         run: npm i
       - name: Build
-        run: npm run build
+        run: npm run build:ci
