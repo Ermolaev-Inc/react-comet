@@ -1,9 +1,12 @@
-import { Route, Switch } from "react-router";
+import { FC } from "react";
+import { Route, Switch, Redirect } from "react-router";
+import { HomeContainer } from "./pages/Home/HomeContainer";
 
-export const Routes = () => {
+export const Routes: FC = () => {
   return (
     <Switch>
-      <Route />
+      <Route exact path="/" component={HomeContainer} />
+      <Redirect to="/" />
     </Switch>
   );
 };
