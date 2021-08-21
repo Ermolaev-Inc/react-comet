@@ -1,5 +1,11 @@
 ![reactcomet](https://user-images.githubusercontent.com/57585370/128564780-426af1ce-6ac1-47bf-9aa7-ca83fe31f4f4.png)
 
+## Installation
+Just click on "Use this template" or clone via ssh
+
+## Comet CLI
+We recommend using the [Comet CLI](https://github.com/Ermolaev-Inc/comet-cli)
+
 ## Available Scripts
 **You can use yarn, just use `yarn` instead of `npm run`**
 ### `npm run start`
