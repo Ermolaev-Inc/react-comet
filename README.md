@@ -6,6 +6,28 @@ Just click on "Use this template" or clone via ssh
 ## Comet CLI
 We recommend using the [Comet CLI](https://github.com/Ermolaev-Inc/comet-cli)
 
+## Structure
+Path | Description
+------------- | -------------
+src/components | A component is an independent part of the UI that can be used many times. The component **depends only on the props**. Examples: Button, Input, Dropdown Menu...
+src/pages  | A page is a collection of components. The `PageNameContainer.tsx` must contain requests to the server and other logic. The `PageName.tsx` should be presentational component. Examples: Home, About, Dialogs...
+src/hooks | Your custom hooks
+
+### Components structure
++ src/components/Button/
+    + Button.tsx
+    + Button.styles.ts
+
+### Pages structure
++ src/pages/About/
+    + AboutContainer.tsx
+    + About.tsx
+    + About.styles.ts
+
+### Hook structure
++ src/hooks/
+    + hookName.hook.ts
+
 ## Available Scripts
 **You can use yarn, just use `yarn` instead of `npm run`**
 ### `npm run start`
