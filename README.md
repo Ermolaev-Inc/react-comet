@@ -41,7 +41,7 @@ Format code with prettier
 ### `npm run types:coverage`
 Checks the code coverage by types
 
-## Support styled-components in storybook
+## Support of styled-components in storybook
 [Check it](https://github.com/Ermolaev-Inc/react-comet/blob/master/.storybook/preview.js)
 
 ## Create React App
